@@ -1,0 +1,8 @@
+{
+  "name": "Sidama Pulse",
+  "description": "A vibrant, energetic showcase of Sidama culture, featuring AI-generated visuals, traditional rhythms, and immersive storytelling.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
