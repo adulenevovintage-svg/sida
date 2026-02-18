@@ -7,9 +7,9 @@ import LiveGuide from './components/LiveGuide';
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#050505] text-white selection:bg-red-500 selection:text-white">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full z-[100] px-8 py-8 flex justify-between items-center bg-gradient-to-b from-black/90 to-transparent backdrop-blur-sm">
-        <div className="text-4xl font-syne font-black tracking-tighter group cursor-pointer">
+      {/* Refined Navigation - Reduced py and adjusted gradient depth */}
+      <nav className="fixed top-0 w-full z-[100] px-8 py-6 flex justify-between items-center bg-gradient-to-b from-black/95 via-black/40 to-transparent backdrop-blur-[2px]">
+        <div className="text-3xl md:text-4xl font-syne font-black tracking-tighter group cursor-pointer">
           SID<span className="text-red-600 group-hover:text-green-500 transition-colors">AMA</span>
         </div>
         
