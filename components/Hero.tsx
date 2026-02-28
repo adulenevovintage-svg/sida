@@ -21,40 +21,40 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black"></div>
       </div>
       
-      {/* Content Wrapper - Added pt-32 to clear the fixed navigation blur */}
-      <div className="relative z-10 text-center px-4 max-w-7xl pt-32 md:pt-40">
-        <div className="overflow-hidden mb-4">
-          <h2 className="text-xl md:text-3xl font-bold tracking-[0.6em] uppercase text-green-400 font-syne reveal-text" style={{ animationDelay: '0.2s' }}>
+      {/* Content Wrapper */}
+      <div className="relative z-10 text-center px-6 max-w-5xl pt-24">
+        <div className="overflow-hidden mb-6">
+          <h2 className="text-base md:text-xl font-bold tracking-[0.5em] uppercase text-green-400 font-syne reveal-text" style={{ animationDelay: '0.4s' }}>
             The South is Calling
           </h2>
         </div>
         
         <div className="overflow-hidden">
-          <h1 className="text-[14vw] md:text-[10vw] font-black font-syne mb-6 leading-[0.85] tracking-tighter italic reveal-text" style={{ animationDelay: '0.4s' }}>
+          <h1 className="text-7xl md:text-[8vw] lg:text-9xl font-black font-syne mb-8 leading-[0.9] tracking-tighter italic reveal-text" style={{ animationDelay: '0.8s' }}>
             SIDAMA <br/>
             <span className="gradient-text animate-vibrate inline-block">ENERGY</span>
           </h1>
         </div>
         
         <div className="overflow-hidden">
-          <p className="text-lg md:text-3xl font-light text-zinc-300 mb-12 max-w-3xl mx-auto leading-tight reveal-text" style={{ animationDelay: '0.6s' }}>
+          <p className="text-lg md:text-2xl font-light text-zinc-300 mb-12 max-w-2xl mx-auto leading-relaxed reveal-text" style={{ animationDelay: '1.2s' }}>
             Unlocking the <span className="text-red-500 font-bold">VIBRATION</span> of Ethiopia's most dynamic culture through Spirit.
           </p>
         </div>
         
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-center reveal-text" style={{ animationDelay: '0.9s' }}>
+        <div className="flex flex-col md:flex-row gap-8 justify-center items-center reveal-text" style={{ animationDelay: '1.6s' }}>
           <button 
             onClick={scrollToContent}
-            className="group relative bg-red-600 text-white font-black py-5 px-12 rounded-full transition-all overflow-hidden shadow-2xl shadow-red-900/40 active:scale-95"
+            className="group relative bg-red-600 text-white font-black py-5 px-12 rounded-full transition-all overflow-hidden shadow-2xl shadow-red-900/40 active:scale-95 animate-button-press"
           >
-            <span className="relative z-10 tracking-widest text-lg">ENTER THE PULSE</span>
+            <span className="relative z-10 tracking-[0.2em] text-sm uppercase">Enter the Pulse</span>
             <div className="absolute inset-0 bg-green-600 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></div>
           </button>
           
-          <div className="flex items-center gap-4 text-zinc-500 font-bold uppercase tracking-widest text-sm opacity-60 hover:opacity-100 transition-opacity cursor-default">
-            <span className="w-12 h-[2px] bg-zinc-800"></span>
-            SCROLL TO EXPLORE
-            <span className="w-12 h-[2px] bg-zinc-800"></span>
+          <div className="flex items-center gap-4 text-zinc-500 font-bold uppercase tracking-[0.3em] text-[10px] opacity-60 hover:opacity-100 transition-opacity cursor-default">
+            <span className="w-8 h-[1px] bg-zinc-800"></span>
+            Scroll to Explore
+            <span className="w-8 h-[1px] bg-zinc-800"></span>
           </div>
         </div>
       </div>
